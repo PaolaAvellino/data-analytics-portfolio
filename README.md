@@ -33,5 +33,5 @@ It showcases my skills in data modeling, DAX, visualization, and storytelling wi
 - DAX 
 - Data modeling
 
-🛠️ Content coming soon. Stay tuned for updates.
+⚠️ This project is under development. More content will be added soon.
 

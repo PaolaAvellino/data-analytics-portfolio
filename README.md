@@ -32,6 +32,3 @@ It showcases my skills in data modeling, DAX, visualization, and storytelling wi
 - DAX (Data Analysis Expressions)
 - Data modeling (Star schema)
 
-### 🖼 Dashboard Preview
-
-![E-Commerce Dashboard](ecommerce_dashboard_olist.png)

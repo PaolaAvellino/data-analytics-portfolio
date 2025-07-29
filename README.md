@@ -8,7 +8,8 @@ Even though I'm transitioning from a background in international business and cu
 
 ## E-Commerce Sales Dashboard – Olist (Power BI)
 
-This Power BI dashboard provides a high-level overview of sales performance from a real-world Brazilian e-commerce company (Olist).  
+This Power BI dashboard provides a high-level overview of sales performance from a real-world Brazilian e-commerce company (Olist). 
+
 It showcases my skills in data modeling, DAX, visualization, and storytelling with business data.
 
 ### 🔍 Dashboard Highlights

@@ -51,48 +51,15 @@ The database itself is in Spanish, but all queries include English documentation
 ## Exercises
 
 Each query is explained using the structure Goal → How it works → Why it’s interesting.
+👉 All queries are in **Netflix SQL Portfolio.sql** with full explanations.  
 
-1. Most Prolific Actor/Actress
-Goal: Find the actor/actress who appears in the largest number of distinct series.
-How it works: Count series per actor (Actuaciones), then look up the actor’s name in Actores.
-Why it’s interesting: Highlights the most recurrent talent across the catalog.
-👉 View SQL
-2. Series with the Highest IMDb Average Rating
-Goal: Find the series with the highest average IMDb rating.
-How it works: Calculate average rating per series (Episodios), then look up the title in Series.
-Why it’s interesting: Shows the overall top-rated show in the catalog.
-👉 View SQL
-3. Longest Episode
-Goal: Find the longest episode by duration.
-How it works: Order Episodios by duracion and select the top row.
-Why it’s interesting: Long episodes often represent specials or finales.
-👉 View SQL
-4. Most Prevalent Genres
-Goal: Find the most frequent genres in the catalog.
-How it works: Group Series by genero and count.
-Why it’s interesting: Shows catalog composition and strategy focus.
-👉 View SQL
-5. Top 3 Series by IMDb Rating and Episode Count
-Goal: Find the three series with the highest average IMDb rating and show their episode count.
-How it works: Join Series + Episodios, group by series, count episodes, calculate average rating.
-Why it’s interesting: Combines both quality (rating) and scope (number of episodes).
-👉 View SQL
-6. Total Duration of Stranger Things
-Goal: Calculate the total runtime of Stranger Things.
-How it works: Join Series + Episodios, filter by title, sum durations.
-Why it’s interesting: Useful to estimate binge-watching commitment.
-👉 View SQL
-7. Top 3 Genres with Series Details
-Goal: Identify the three most popular genres and list each series title, release year, and average rating.
-How it works: First find top 3 genres, then join with Series + Episodios, group by series, compute average rating.
-Why it’s interesting: Combines catalog popularity with quality.
-👉 View SQL
-8. Series Overview (Title, Episode Count, Avg Rating)
-Goal: Display each series with total episodes and average IMDb rating.
-How it works: Use two CTEs — one for titles (Series), another for counts/ratings (Episodios) — and join them.
-Why it’s interesting: Gives a quick health snapshot of each series.
-👉 View SQL
-🛠️ Tools
-SQL (MySQL / SQLite)
-GitHub for portfolio documentation
+1. Most prolific actor/actress.
+2. Series with the highest IMDb average rating.
+3. Longest episode.
+4. Most prevalent genres.
+5. Top 3 series by IMDb rating and episode count.
+6. Total duration of *Stranger Things*.
+7. Top 3 genres with series details.
+8. Series overview (title, episode count, avg rating).
+   
 ⚠️ Note: Queries use Spanish table/column names, but results are aliased in English for clarity.

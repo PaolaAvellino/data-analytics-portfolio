@@ -33,5 +33,18 @@ It showcases my skills in data modeling, DAX, visualization, and storytelling wi
 - DAX 
 - Data modeling
 
-⚠️ This project is under development. More content will be added soon.
+---
+
+## Netflix SQL Portfolio
+This repository contains a series of SQL practice exercises using a sample database of Netflix series.
+The database itself is in Spanish, but all queries include English documentation and output aliases for consistency.
+
+
+| Spanish Table/Column | English Equivalent                                         |
+| -------------------- | ---------------------------------------------------------- |
+| Actores              | Actors (actor_id,nombre, fecha_nacimiento)                              |
+| Series               | Series (`serie_id`, `titulo`, `año_lanzamiento`, `genero, descripcion) |
+| Episodios            | Episodes (`episodio_id`, `duracion`, `rating_imdb`)        |
+| Actuaciones          | Performances (link between actors and series)              |
+
 

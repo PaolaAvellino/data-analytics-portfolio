@@ -51,7 +51,7 @@ The database itself is in Spanish, but all queries include English documentation
 
 **Exercises**
 
-👉 All queries are in **Netflix SQL Portfolio.sql** with full explanations.  
+👉 All queries are in [Netflix_SQL_Portfolio.sql](Netflix_SQL_Portfolio.sql) with full explanations.  
 
 Each query is explained using the structure Goal → How it works → Why it’s interesting.
 

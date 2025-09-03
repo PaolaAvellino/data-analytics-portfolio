@@ -48,12 +48,12 @@ The database itself is in Spanish, but all queries include English documentation
 | Episodios            | Episodes (`serie_id`, `episodio_id`,`titulo`, `duracion`, `rating_imdb`, `temporada`, `descripcion`, `fecha_estreno`)        |
 | Actuaciones          | Performances (`actor_id`,`serie_id`, `personaje`)              |
 
-** Exercises **
+**Exercises**
 
 Each query is explained using the structure Goal → How it works → Why it’s interesting.
 👉 All queries are in **Netflix SQL Portfolio.sql** with full explanations.  
 
-1. Most prolific actor/actress.
+**1. Most prolific actor/actress.**
 2. Series with the highest IMDb average rating.
 3. Longest episode.
 4. Most prevalent genres.

@@ -71,3 +71,5 @@ Each query is explained using the structure Goal → How it works → Why it’s
 
 **8. Series overview (title, episode count, avg rating).**
 
+
+

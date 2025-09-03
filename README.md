@@ -48,7 +48,7 @@ The database itself is in Spanish, but all queries include English documentation
 | Episodios            | Episodes (`serie_id`, `episodio_id`,`titulo`, `duracion`, `rating_imdb`, `temporada`, `descripcion`, `fecha_estreno`)        |
 | Actuaciones          | Performances (`actor_id`,`serie_id`, `personaje`)              |
 
-## Exercises
+** Exercises **
 
 Each query is explained using the structure Goal → How it works → Why it’s interesting.
 👉 All queries are in **Netflix SQL Portfolio.sql** with full explanations.  
@@ -61,5 +61,4 @@ Each query is explained using the structure Goal → How it works → Why it’s
 6. Total duration of *Stranger Things*.
 7. Top 3 genres with series details.
 8. Series overview (title, episode count, avg rating).
-   
-⚠️ Note: Queries use Spanish table/column names, but results are aliased in English for clarity.
+

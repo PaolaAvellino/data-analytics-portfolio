@@ -53,6 +53,8 @@ The database itself is in Spanish, but all queries include English documentation
 
 👉 All queries are in **Netflix SQL Portfolio.sql** with full explanations.  
 
+Each query is explained using the structure Goal → How it works → Why it’s interesting.
+
 **1. Most prolific actor/actress.**
 
 **2. Series with the highest IMDb average rating.**

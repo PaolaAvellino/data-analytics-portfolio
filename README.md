@@ -38,6 +38,7 @@ It showcases my skills in data modeling, DAX, visualization, and storytelling wi
 ## Netflix SQL Portfolio
 
 This repository contains a series of SQL practice exercises using a sample database of Netflix series.
+
 The database itself is in Spanish, but all queries include English documentation and output aliases for consistency.
 
 
@@ -51,14 +52,15 @@ The database itself is in Spanish, but all queries include English documentation
 **Exercises**
 
 Each query is explained using the structure Goal → How it works → Why it’s interesting.
+
 👉 All queries are in **Netflix SQL Portfolio.sql** with full explanations.  
 
 **1. Most prolific actor/actress.**
-2. Series with the highest IMDb average rating.
-3. Longest episode.
-4. Most prevalent genres.
-5. Top 3 series by IMDb rating and episode count.
-6. Total duration of *Stranger Things*.
-7. Top 3 genres with series details.
-8. Series overview (title, episode count, avg rating).
+**2. Series with the highest IMDb average rating.**
+**3. Longest episode.**
+**4. Most prevalent genres.**
+**5. Top 3 series by IMDb rating and episode count.**
+**6. Total duration of *Stranger Things*.**
+**7. Top 3 genres with series details.**
+**8. Series overview (title, episode count, avg rating).**
 

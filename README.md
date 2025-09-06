@@ -75,7 +75,9 @@ Each query is explained using the structure Goal → How it works → Why it’s
 
 ## Lending Club Case Study
 
-About this Project
+**About this Project**
+
+[Lending Club.ipynb](https://github.com/PaolaAvellino/data-analytics-portfolio/blob/main/Lending%20Club.ipynb)
 
 This case study is based on a real-world dataset (Lending Club). The goal was not to build a perfectly polished example, but to showcase a realistic workflow where challenges naturally arise during data preparation and modeling.
 
@@ -85,9 +87,7 @@ This approach reflects the way real projects evolve: data is often messy, decisi
 
 **Dataset** 
 
-The dataset used in this project was provided as part of my Master’s program.
-Due to size and sharing restrictions, the full dataset is not included in this repository.
-However, the project can be reproduced using publicly available versions of the Lending Club dataset (e.g., on Kaggle).
+The dataset used in this project was provided as part of my Master’s program. Due to size restrictions, the full dataset is not included in this repository. However, the project can be reproduced using publicly available versions of the Lending Club dataset (e.g., on Kaggle).
 
 **Project Workflow** 
 

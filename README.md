@@ -122,24 +122,26 @@ However, the project can be reproduced using publicly available versions of the 
 - F1-score
 - AUC-ROC
 - Gini Index
-- 
-Results
+  
+**Results**
 
-Model	AUC-ROC	Gini	Accuracy	Precision	Recall	F1-score
-Logistic Regression	0.5142	0.0283	0.8045	0.8060	0.9970	0.8914
-Decision Tree	0.6598	0.3197	0.6949	0.8608	0.7406	0.7961
-Random Forest	0.7275	0.4550	0.7574	0.8605	0.8337	0.8469
-XGBoost	0.7285	0.4571	0.7155	0.8737	0.7556	0.8104
+| Model               | AUC-ROC | Gini  | Accuracy | Precision | Recall | F1-score |
+|----------------------|---------|-------|----------|-----------|--------|----------|
+| Logistic Regression  | 0.5142  | 0.0283| 0.8045   | 0.8060    | 0.9970 | 0.8914   |
+| Decision Tree        | 0.6598  | 0.3197| 0.6949   | 0.8608    | 0.7406 | 0.7961   |
+| Random Forest        | 0.7275  | 0.4550| 0.7574   | 0.8605    | 0.8337 | 0.8469   |
+| XGBoost              | 0.7285  | 0.4571| 0.7155   | 0.8737    | 0.7556 | 0.8104   |
 
-Insights
 
-Logistic Regression performed poorly, with an almost random discriminative capacity.
+**Insights**
 
-Decision Tree improved over Logistic Regression but still struggled with misclassifying many negative cases.
+- Logistic Regression performed poorly, with an almost random discriminative capacity.
 
-Random Forest delivered strong predictive power, balancing precision and recall effectively.
+- Decision Tree improved over Logistic Regression but still struggled with misclassifying many negative cases.
 
-XGBoost achieved the best overall performance, with the highest AUC-ROC and Gini Index, making it the most robust model in this study.
+- Random Forest delivered strong predictive power, balancing precision and recall effectively.
+
+- XGBoost achieved the best overall performance, with the highest AUC-ROC and Gini Index, making it the most robust model in this study.
 
 
 

@@ -71,5 +71,75 @@ Each query is explained using the structure Goal → How it works → Why it’s
 
 **8. Series overview (title, episode count, avg rating).**
 
+---
+
+## Lending Club Case Study
+
+About this Project
+
+This case study is based on a real-world dataset (Lending Club). The goal was not to build a perfectly polished example, but to showcase a realistic workflow where challenges naturally arise during data preparation and modeling.
+
+Throughout the process, I encountered issues such as missing values, incorrect data types, and categorical variables requiring transformation. Instead of hiding these obstacles, I documented how I addressed them step by step until reaching a working solution.
+
+This approach reflects the way real projects evolve: data is often messy, decisions must be made iteratively, and the final model is the result of problem-solving along the way.
+
+**Dataset** 
+
+The dataset used in this project was provided as part of my Master’s program.
+Due to size and sharing restrictions, the full dataset is not included in this repository.
+However, the project can be reproduced using publicly available versions of the Lending Club dataset (e.g., on Kaggle).
+
+**Project Workflow** 
+
+1. Data Cleaning & Preprocessing
+   
+- Removed irrelevant or post-loan variables.
+- Handled missing values using imputation strategies.
+- Converted categorical variables into numeric dummy variables.
+- Transformed variables such as interest rate (int_rate), revolving utilization (revol_util), and employment length (emp_length).
+- Evaluated variable relevance using Information Value (IV).
+
+2. Feature Selection
+
+- Discarded variables with very low predictive power (IV < 0.1).
+- Removed overly predictive variables (IV > 0.5) to reduce bias.
+- Retained variables with medium discriminative power (0.1 ≤ IV ≤ 0.5).
+
+3. Modeling
+   
+- Trained and evaluated several classification models to predict loan status (Fully Paid vs. Default):
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- XGBoost
+
+4. Evaluation Metrics
+
+- Models were compared using the following metrics:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- AUC-ROC
+- Gini Index
+- 
+Results
+
+Model	AUC-ROC	Gini	Accuracy	Precision	Recall	F1-score
+Logistic Regression	0.5142	0.0283	0.8045	0.8060	0.9970	0.8914
+Decision Tree	0.6598	0.3197	0.6949	0.8608	0.7406	0.7961
+Random Forest	0.7275	0.4550	0.7574	0.8605	0.8337	0.8469
+XGBoost	0.7285	0.4571	0.7155	0.8737	0.7556	0.8104
+
+Insights
+
+Logistic Regression performed poorly, with an almost random discriminative capacity.
+
+Decision Tree improved over Logistic Regression but still struggled with misclassifying many negative cases.
+
+Random Forest delivered strong predictive power, balancing precision and recall effectively.
+
+XGBoost achieved the best overall performance, with the highest AUC-ROC and Gini Index, making it the most robust model in this study.
+
 
 

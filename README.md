@@ -8,6 +8,8 @@ Even though I'm transitioning from a background in international business and cu
 
 ## E-Commerce Sales Dashboard – Olist (Power BI)
 
+[ecommerce-olist-dashboard.png](https://github.com/PaolaAvellino/data-analytics-portfolio/blob/main/ecommerce-olist-dashboard.png)
+
 This Power BI dashboard provides a high-level overview of sales performance from a real-world Brazilian e-commerce company (Olist). 
 
 It showcases my skills in data modeling, DAX, visualization, and storytelling with business data.
